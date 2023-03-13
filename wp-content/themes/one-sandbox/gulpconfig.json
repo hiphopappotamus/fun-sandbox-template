@@ -1,0 +1,11 @@
+{
+  "browserSyncOptions": {
+    "proxy": "fun-sandbox.local",
+    "files": ["./css/*.css", "./sass/*.scss", "./sass/**/_*.scss", "js/*.js", "./**/*.php", "./**/**/*.php", "./**/**/**/*.php"]
+  },
+  "paths": {
+    "js": "./js",
+    "css": "./css",
+    "sass": "./sass"
+  }
+}
